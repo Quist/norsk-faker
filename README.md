@@ -11,7 +11,14 @@ Planen er å implementere støtte for generering av tilfeldige:
 
 ## Install
 
+### npm
+
 ``` npm install --save nav-faker ```
+
+### yarn
+
+``` yarn add nav-faker ```
+
 
 ## Usage
 
@@ -96,7 +103,7 @@ Bygg og linting med: `yarn build `
 
 `yarn test`
 
-### Committe 
+### Committe
 
 Vi bruker verktøyet [semantic-release](https://github.com/semantic-release/semantic-release) for å bestemme når og hvilken versjon som skal publiseres til NPM. Verktøyet analysere commit-meldinger for å bestemme om patch, minor eller major versjon skal publiseres.
 
